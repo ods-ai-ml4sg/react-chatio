@@ -3,7 +3,7 @@ To begin the development, run `npm start` in this folder.\
 To create a production bundle, use `npm run build`.\
 To build Docker image `docker build  -t chatio:latest .`\
 To run Docker image `docker run --rm -it -p 8080:8080 chatio:latest`\
-and access it via browser on `http://localhost:8080`\
+and access it via browser on `http://localhost:8080`
 
 
 ### Features I didn't make due to out of time
