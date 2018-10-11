@@ -2,6 +2,7 @@ import SocketIO from 'socket.io';
 import Channel from '../controllers/Channel';
 import User from '../controllers/User';
 import Message from '../controllers/Message';
+import Authenticate from '../aaa/Authenticate';
 import Logging from '../components/Logging';
 
 module.exports = function (server) {
@@ -9,10 +10,17 @@ module.exports = function (server) {
 
   io.on('connection', function (socket) {
 
-    // Register actions controllers
-    User.register(socket);
-    Channel.register(socket);
-    Message.register(socket);
+    try {
+      // Just stub example
+      Authenticate.authenticate('', '');
+
+      // Register actions controllers
+      User.register(socket);
+      Channel.register(socket);
+      Message.register(socket);
+    } catch (e) {
+      
+    }
 
     socket.on("disconnect", () => {
       console.log("Client disconnected");
