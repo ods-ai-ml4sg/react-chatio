@@ -1,9 +1,9 @@
 ### Introduction
-The app is based on:
-React-Redux
-Lodash (for react state updates)
-Resock (middleware for transparent bypassing of socket.io events to react actions)
-Socket.IO 
+The app is based on:\
+React-Redux\
+Lodash (for react state updates)\
+Resock (middleware for transparent bypassing of socket.io events to react actions)\
+Socket.IO\
 NodeJS
 
 
