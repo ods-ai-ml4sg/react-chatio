@@ -1,3 +1,12 @@
+### Introduction
+The app is based on:
+React-Redux
+Lodash (for react state updates)
+Resock (middleware for transparent bypassing of socket.io events to react actions)
+Socket.IO 
+NodeJS
+
+
 ### How to use
 To begin the development, run `npm start` in this folder.\
 To create a production bundle, use `npm run build`.\
