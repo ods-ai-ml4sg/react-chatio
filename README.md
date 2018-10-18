@@ -1,6 +1,4 @@
 ### Introduction
-I am new to both React and Node.JS technologies, because my primary areas of interests are large scale systems and ETL. Main intention here is to show that I am capable to quickly learn a new stack (within 3 days) and provide end-to-end prototype ready to be extended to PoC. The prototype is not ideal in couple aspects and I am capable to explain why and how it can be improveved within 1-2 days.
-
 The app is based on:\
 React-Redux\
 Lodash (for react state updates, used instead of ramda and immutable.js)\
